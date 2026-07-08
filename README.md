@@ -1,4 +1,4 @@
-# Setu — English ⇄ Hindi ⇄ Kannada voice & text bridge
+# Setu
 
 Speak or type in English, Hindi, or Kannada. Get back translated **text and spoken audio**
 in the other language(s):
@@ -12,8 +12,7 @@ code-mixed speech.
 
 ## 1. Get a Sarvam AI API key
 
-1. Sign up at https://dashboard.sarvam.ai — free credits automatically, no institutional
-   registration, just email/Google sign-in.
+1. Sign up at https://dashboard.sarvam.ai 
 2. Copy your API subscription key.
 
 ## 2. First-time setup (one time only)
@@ -28,9 +27,7 @@ chmod +x setup.sh start.sh   # only needed once, makes the scripts runnable
 ```
 Then open the `.env` file it creates and paste your key into `API_KEY=`.
 
-## 3. Running it day-to-day
-
-No more typing commands — just:
+## 3. Running it 
 
 - **Windows:** double-click `start.bat`
 - **Mac/Linux:** double-click `start.sh`, or run `./start.sh` in a terminal
@@ -50,7 +47,7 @@ python app.py
 Then open http://localhost:3000 manually.
 </details>
 
-## 4. Deploy it publicly
+## 4. Deploy it
 
 This is a normal Flask app, so it deploys anywhere that runs Python:
 
@@ -62,7 +59,7 @@ This is a normal Flask app, so it deploys anywhere that runs Python:
 - **Railway** / **Fly.io**: similar — push the repo, set `API_KEY`, use the same
   gunicorn start command.
 
-Once deployed, share the URL. Anyone can open it in a browser — no install required.
+Once deployed, share the URL. Anyone can open it in a browser
 
 ## 5. Before you make it public — things worth doing
 
